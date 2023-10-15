@@ -1,0 +1,70 @@
+body {
+    background-color: #6677AA;
+}
+h1  {
+    text-align: center;
+    letter-spacing: 0.5rem;
+    font-size: 60pt;
+}
+h2 {
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 0.5fr, 0.5fr;
+    align-items: center;
+    justify-items: center;
+    gap: 10%;
+}
+.dadogrid {
+    background-color: red;
+    display: grid;
+    height: 200px;
+    width: 200px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+}
+.pallina {
+    background-color: red;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+}
+.first {
+    grid-row: 1 / span 1;
+    grid-column: 1/ span 1;
+}
+.second {
+    grid-row: 2/ span 1;
+    grid-column: 1/ span 1;
+}
+.third {
+    grid-row: 3/ span 1;
+    grid-column: 1/ span 1;
+}
+.fourth{
+    grid-row: 2/ span 1;
+    grid-column: 2/ span 1;
+}
+.fifth{
+    grid-row: 1/ span 1;
+    grid-column: 3/ span 1;
+}
+.sixth{
+    grid-row: 2/ span 1;
+    grid-column: 3/ span 1;
+}
+.seventh{
+    grid-row: 3/ span 1;
+    grid-column: 3/ span 1;
+}
+button {
+    justify-self: center;
+    grid-row: 3/ span 1;
+    grid-column: 1/span 2;
+}
