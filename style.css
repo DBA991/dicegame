@@ -1,12 +1,14 @@
 body {
     background-color: #6677AA;
+}
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     justify-items: center;
-}
-section {
+    margin-left: 5%;
+    margin-right:5%;
     margin-top: 10%;
 h1  {
     text-align: center;
